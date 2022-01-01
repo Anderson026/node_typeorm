@@ -13,7 +13,7 @@ export class Contact {
     personId: number;
 
     @OneToOne(() => Person, {
-        onDelete: "CASCADE"
+        onDelete: "CASCADE",
     })
     @JoinColumn()
     person: Person;

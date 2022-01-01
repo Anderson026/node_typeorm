@@ -15,6 +15,6 @@ export class DeletePersonController {
       return response.status(400).json(result.message);
     }
 
-    return response.status(200).json(result);
+    return response.status(200).json({message: "Dados exluídos com sucesso!"});
   }
 }

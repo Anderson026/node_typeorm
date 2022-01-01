@@ -67,6 +67,11 @@ OBS: No caso da rota GET esse será o retorno da requisição
 }
 ```
 4. DELETE - http://localhost:3000/persons/3
+```
+{
+	"message": "Dados exluídos com sucesso!"
+}
+```
 
 OBS: Se o id não existir vai retornar a seguinte mensagem:
 ```"Pessoa não existe!"```

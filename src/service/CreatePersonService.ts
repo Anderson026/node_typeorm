@@ -9,7 +9,7 @@ interface IPersonServiceRequest {
   email: string;
 }
 
-class PersonService {
+class CreatePersonService {
   async register({nome, telefone, email}: IPersonServiceRequest) {
     const personRepo = getRepository(Person);
     const person = new Person();
@@ -33,4 +33,4 @@ class PersonService {
   }
 }
 
-export default new PersonService();
+export default new CreatePersonService();
