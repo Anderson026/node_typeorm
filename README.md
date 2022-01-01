@@ -39,7 +39,8 @@ TYPEORM_ENTITIES_DIR = src/entities
 ```
 2. GET - http://localhost:3000/persons
 ```
-{
+[
+	{
 		"id": 1,
 		"nome": "Alberto",
 		"contact": {
@@ -53,6 +54,7 @@ TYPEORM_ENTITIES_DIR = src/entities
 			"personId": 1
 		}
 	}
+]
 ```
 OBS: No caso da rota GET esse será o retorno da requisição
 
